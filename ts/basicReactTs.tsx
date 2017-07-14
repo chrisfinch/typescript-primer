@@ -1,3 +1,12 @@
+/*
+	Task:
+
+	Create DeveloperPerson component that takes an additional string prop devSkill and prints out the extra line 'My developer skill is xxx'
+
+	Add some developerPeople to the People component and display them
+
+ */
+
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
@@ -54,7 +63,6 @@ class People extends React.Component<IPeopleProps, null> {
 				 	firstName="Chris"
 					lastName="Finch"
 					age={ 31 } />
-
 				<hr/>
 
 				{ this.props.people.map(person => (
