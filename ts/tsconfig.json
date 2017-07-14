@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "./../js",
+        "rootDir": "./",
+        "sourceMap": false,
+        "jsx" : "react",
+        "lib": ["es2015", "dom"],
+        "watch": true,
+        "allowJs": true
+    },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
